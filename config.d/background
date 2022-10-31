@@ -1,0 +1,2 @@
+set $wallpaper /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1366x768.png
+output * bg $wallpaper fill

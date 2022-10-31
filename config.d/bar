@@ -1,0 +1,11 @@
+bar {
+    position top
+
+    status_command python ~/.config/sway/status.py
+
+    colors {
+        statusline #ffffff
+        background #121212
+        inactive_workspace #323232 #323232 #5c5c5c
+    }
+}

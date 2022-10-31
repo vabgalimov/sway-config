@@ -1,0 +1,37 @@
+### Keyboard
+
+# Terminal
+bindsym $mod+Return exec $term
+
+# Browser
+bindsym $mod+o exec $browser
+
+# Telegram
+bindsym $mod+t exec telegram-desktop
+
+# Night mode
+bindsym $mod+n exec wlsunset
+
+# Menu
+bindsym $mod+d exec $menu
+
+# Shin (input command)
+bindsym $mod+c exec ibus engine shin
+
+# Screenshot
+bindsym $mod+Print exec grim
+
+# Kill focused window
+bindsym $mod+Shift+q kill
+
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+
+# Exit sway
+bindsym $mod+Shift+e exit
+
+### Mouse
+
+# normal  -> LMB: drag   | RMB: resize
+# inverse -> LMB: resize | RMB: drag
+floating_modifier $mod normal

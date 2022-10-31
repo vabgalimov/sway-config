@@ -1,0 +1,18 @@
+set $sizing 10px
+
+mode "resize" {
+    bindsym $left  resize grow   width  $sizing
+    bindsym $down  resize shrink height $sizing
+    bindsym $up    resize grow   height $sizing
+    bindsym $right resize shrink width  $sizing
+
+    bindsym Left   resize grow   width  $sizing
+    bindsym Down   resize shrink height $sizing
+    bindsym Up     resize grow   height $sizing
+    bindsym Right  resize shrink width  $sizing
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"

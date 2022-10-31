@@ -1,0 +1,17 @@
+set $mod Mod4
+
+set $left  h
+set $down  j
+set $up    k
+set $right l
+
+set $term wayst
+set $browser librewolf
+
+set $uifont 'Ubuntu 14'
+set $highlight '#3daee9'
+set $prompt '#18b218'
+set $menu bemenu-run --fn $uifont -b -p '>' --tf $prompt --hf $highlight --sf $highlight --scf $highlight | xargs swaymsg exec --
+
+include ~/.config/sway/config.d/*
+include /etc/sway/config.d/*
