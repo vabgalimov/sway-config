@@ -1,7 +1,7 @@
 bar {
     position top
 
-    status_command python ~/.config/sway/status.py
+    status_command while date +'%x %T'; do sleep 1; done
 
     colors {
         statusline #ffffff
